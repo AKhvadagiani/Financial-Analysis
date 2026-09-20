@@ -7,7 +7,9 @@ authors = [
     { name = "Ani Khvadagiani", email = "anikhvadagiani12@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pymupdf>=1.28.2",
+]
 
 [project.scripts]
 financial-analysis = "financial_analysis:main"
