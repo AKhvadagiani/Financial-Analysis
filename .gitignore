@@ -1,0 +1,9 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Optional: local Python version
+.python-version
